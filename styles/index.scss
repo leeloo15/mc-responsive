@@ -18,6 +18,13 @@
 // variables
 @import './variables';
 
+// common
+@import './common/index';
+
+// components.scss
+
+@import '../components/components.scss';
+
 body {
   font-size: 16px;
   font-family: 'Playfair Display', sans-serif;

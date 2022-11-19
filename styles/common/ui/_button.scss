@@ -1,0 +1,37 @@
+.button {
+  border: 1px solid $black;
+  padding: 7px 20px;
+  font-size: 12px;
+  cursor: pointer;
+
+  @include media-breakpoint-up(lg) {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+.button-primary {
+  background-color: transparent;
+  transition: color 0.2 linear, background-color 0.2 linear;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+.button-secondary {
+  background-color: $white;
+  color: $black;
+}
+
+.button-small {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  font-size: 12px;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 16px;
+  }
+}
