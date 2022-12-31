@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-inner-container">
+      <div className="footer-inner mc-container">
         <section className="footer-contact">
           <ul>
             <li>
@@ -109,7 +109,7 @@ export default function Footer() {
               />
             </form>
 
-            <div className="crazy-design-wrapper">
+            <div className="design-wrapper">
               <button className="button button-primary button-small">
                 Submit
               </button>

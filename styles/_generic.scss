@@ -1,0 +1,19 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+  @include default-hover-effect;
+}
+
+.mc-container {
+  margin: 0 auto;
+  width: calc(100% - 2 * $container-margin);
+
+  @include media-breakpoint-up(lg) {
+    max-width: 1356px;
+  }
+}
